@@ -1,0 +1,6 @@
+p = float(input('Digite o preço do produto: '))
+d = (p*0.05)
+print('---------------------------')
+print('O preço do produto sem desconto: {:.2f} US$'.format(p))
+print('O valor do desconto: {:.2f} 5%'.format(d))
+print('O valor do produto com desconto: {:.2f} US$'.format(p-d))

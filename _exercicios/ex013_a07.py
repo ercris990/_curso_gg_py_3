@@ -1,0 +1,6 @@
+s = float(input('Digite o salário do funcionário: '))
+a = (s * 0.15)
+print('-=-' * 18)
+print('O salário actual do funcionário é: {:.2f} US$'.format(s))
+print('O valor do aumento é: {:.2f} %'.format(a))
+print('O salário do funcionario com aumento é: {:.2f} US$'.format(s+a))
