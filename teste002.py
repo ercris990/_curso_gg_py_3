@@ -1,5 +1,4 @@
 numlist = []
-
 while True:
     num = int(input('Digite um numero: '))
     opc = str(input('Deseja continuar S|N: ')).strip().upper()

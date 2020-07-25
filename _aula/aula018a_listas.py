@@ -1,0 +1,5 @@
+dados = list()
+dados.append('Ermano')
+dados.append('30')
+print(dados[0])
+print(dados[1])
